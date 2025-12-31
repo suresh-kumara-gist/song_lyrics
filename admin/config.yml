@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: suresh-kumara-gist/song_lyrics
+  base_url: https://suresh-issue-82.dcycleproject.org
+  auth_endpoint: /auth/github/repo/69556f9ba1e4c918b851f5f1
+media_folder: static/uploads
+public_folder: /uploads
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
