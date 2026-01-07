@@ -2,7 +2,7 @@ backend:
   name: github
   repo: suresh-kumara-gist/song_lyrics
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/695573f0df31b27a0c78315d
+  auth_endpoint: /auth/github/repo/695e25e1cf43ed317a80e75c
   branch: master
 media_folder: static/uploads
 public_folder: /uploads
